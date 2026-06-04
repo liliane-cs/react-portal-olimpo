@@ -6,7 +6,7 @@ export const Deuses = () => {
     return(
         <Container>
             {listaDosDeuses.map((deusIndividualmente) => 
-            <CardDeus nome={deusIndividualmente.nome} dominio={deusIndividualmente.dominio}/>)
+            <CardDeus nome={deusIndividualmente.nome} dominio={deusIndividualmente.dominio} imagem ={deusIndividualmente.imagem}/>)
             }
         </Container>
 

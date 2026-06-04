@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Container = styled.div`
     display: flex;
@@ -8,5 +8,5 @@ export const Container = styled.div`
     background-color: #1a1a2e;
     color: #f0e6c8;
     text-align: center;
-    padding: 32px;
+    padding: 2rem;
 `

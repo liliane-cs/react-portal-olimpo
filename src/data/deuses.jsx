@@ -7,7 +7,7 @@ export const listaDosDeuses = [
     animal: "Águia",
     descricao:
       "Rei dos deuses do Olimpo, Zeus era conhecido por lançar raios contra quem ousasse desafiar sua autoridade. Apesar do poder imenso, vivia se disfarçando de humano para se aventurar entre os mortais.",
-    imagem: "",
+    imagem: "/src/assets/Imagens/zeus.png",
   },
   {
     id: "2",
@@ -17,7 +17,7 @@ export const listaDosDeuses = [
     animal: "Pavão",
     descricao:
       "Rainha dos deuses e esposa de Zeus, Hera era protetora do casamento. Famosa pelo ciúme, perseguia as amantes do marido com uma criatividade assustadora.",
-    imagem: "",
+    imagem: "/src/assets/Imagens/hera.png",
   },
   {
     id: "3",
@@ -27,7 +27,7 @@ export const listaDosDeuses = [
     animal: "Cavalo",
     descricao:
       "Senhor dos mares, Poseidon podia acalmar ou enfurecer os oceanos com um golpe do seu tridente. Também causava terremotos, o que lhe rendeu o apelido de Abalador da Terra.",
-    imagem: "",
+   imagem: "/src/assets/Imagens/poseidon.png ",
   },
   {
     id: "4",
@@ -37,7 +37,7 @@ export const listaDosDeuses = [
     animal: "Coruja",
     descricao:
       "Deusa da sabedoria e da estratégia, Atena nasceu diretamente da cabeça de Zeus já adulta e armada. Era a favorita do pai e padroeira da cidade de Atenas.",
-    imagem: "",
+   imagem: "/src/assets/Imagens/atena.png",
   },
   {
     id: "5",
@@ -47,7 +47,7 @@ export const listaDosDeuses = [
     animal: "Golfinho",
     descricao:
       "Deus do sol, da música e das profecias, Apolo era considerado o mais belo dos deuses. O Oráculo de Delfos era seu templo, onde mortais iam buscar respostas sobre o futuro.",
-    imagem: "",
+   imagem: "/src/assets/Imagens/apolo.png",
   },
   {
     id: "6",
@@ -57,7 +57,7 @@ export const listaDosDeuses = [
     animal: "Cervo",
     descricao:
       "Irmã gêmea de Apolo, Ártemis era a deusa da caça e da lua. Preferia as florestas ao Olimpo e protegia as mulheres e os animais selvagens.",
-    imagem: "",
+    imagem: "/src/assets/Imagens/artemis.png",
   },
   {
     id: "7",
@@ -67,7 +67,7 @@ export const listaDosDeuses = [
     animal: "Javali",
     descricao:
       "Deus da guerra, Ares representava o lado brutal e caótico dos combates. Era temido até pelos outros deuses e curiosamente apaixonado por Afrodite, deusa do amor.",
-    imagem: "",
+   imagem: "/src/assets/Imagens/ares.png",
   },
   {
     id: "8",
@@ -77,7 +77,7 @@ export const listaDosDeuses = [
     animal: "Pomba",
     descricao:
       "Deusa do amor e da beleza, Afrodite nasceu das espumas do mar. Sua influência era tão poderosa que até os deuses perdiam a razão diante dela.",
-    imagem: "",
+   imagem: "/src/assets/Imagens/afrodite.png",
   },
   {
     id: "9",
@@ -87,7 +87,7 @@ export const listaDosDeuses = [
     animal: "Burro",
     descricao:
       "Deus do fogo e da metalurgia, Hefesto era o ferreiro dos deuses. Criou as armas e armaduras mais poderosas do Olimpo, incluindo o raio de Zeus e a armadura de Aquiles.",
-    imagem: "",
+   imagem: "/src/assets/Imagens/hefesto.png",
   },
   {
     id: "10",
@@ -97,7 +97,7 @@ export const listaDosDeuses = [
     animal: "Tartaruga",
     descricao:
       "Mensageiro dos deuses, Hermes era o mais ágil e esperto do Olimpo. Guiava as almas dos mortos até o submundo e era o protetor dos viajantes, comerciantes e ladrões.",
-    imagem: "",
+    imagem: "/src/assets/Imagens/hermes.png",
   },
   {
     id: "11",
@@ -107,7 +107,7 @@ export const listaDosDeuses = [
     animal: "Cobra",
     descricao:
       "Deusa da agricultura, Deméter controlava as estações do ano. Quando sua filha Perséfone foi raptada por Hades, sua tristeza fez a terra ficar estéril pelo que hoje chamamos de inverno.",
-    imagem: "",
+    imagem: "/src/assets/Imagens/demeter.png",
   },
   {
     id: "12",
@@ -117,7 +117,7 @@ export const listaDosDeuses = [
     animal: "Leopardo",
     descricao:
       "Deus do vinho e das festas, Dionísio era o mais festeiro do Olimpo. Seus seguidores entravam em transe durante os rituais e ele era o único deus filho de um mortal a conquistar um lugar entre os imortais.",
-    imagem: "",
+    imagem: "/src/assets/Imagens/dionisio.png",
   },
   {
     id: "13",
@@ -127,7 +127,7 @@ export const listaDosDeuses = [
     animal: "Cão de Três Cabeças",
     descricao:
       "Senhor do submundo, Hades reinava sobre o reino dos mortos. Apesar da fama sombria, era considerado justo — apenas cumpria seu papel de guardar as almas que chegavam ao seu reino.",
-    imagem: "",
+    imagem: "/src/assets/Imagens/hades.png",
   },
   {
     id: "14",
@@ -137,7 +137,7 @@ export const listaDosDeuses = [
     animal: "Porco",
     descricao:
       "Deusa do lar e da lareira, Hestia era a mais tranquila dos deuses. Abriu mão de seu lugar no Olimpo para Dionísio e preferiu habitar o fogo sagrado de cada lar e templo grego.",
-    imagem: "",
+    imagem: "/src/assets/Imagens/hestia.png",
   },
   {
     id: "15",
@@ -147,6 +147,6 @@ export const listaDosDeuses = [
     animal: "Corça",
     descricao:
       "Filha de Deméter, Perséfone foi raptada por Hades e se tornou rainha do submundo. Passa metade do ano embaixo da terra, o que os gregos usavam para explicar as estações do ano.",
-    imagem: "",
+    imagem: "/src/assets/Imagens/persefone.png",
   },
 ];

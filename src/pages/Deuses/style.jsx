@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
-    padding: 16px;
+    padding: 1rem;
 `
