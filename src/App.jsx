@@ -1,9 +1,11 @@
+import { DetalhesDeuses } from "./pages/DetalhesDeuses"
 import { Deuses } from "./pages/Deuses"
+import { Portal } from "./pages/Portal"
 
 function App() {
   return (
     <>
-      <Deuses/>
+      <DetalhesDeuses/>
     </>
   )
 }

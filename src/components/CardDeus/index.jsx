@@ -1,9 +1,10 @@
+import { Card } from "./style"
 
 export const CardDeus  = ({nome,dominio}) => {
     return(
-    <div>
+    <Card>
         <p>{nome}</p>
         <p>{dominio}</p>
-    </div>
+    </Card>
 )
 }
