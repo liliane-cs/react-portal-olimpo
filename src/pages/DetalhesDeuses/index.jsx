@@ -1,18 +1,21 @@
 import { Container, Nome, Info, Descricao, InfoEspecial } from "./style"
-import zeus from "../../assets/Imagens/zeus.png"
+import { useParams } from "react-router-dom"
+import { listaDosDeuses } from "../../data/deuses"
 
 export const DetalhesDeuses = () => {
+    const { id } = useParams()
+    const deus = listaDosDeuses.find((deus) => deus.id === id)
+
     return(
         <Container>
-            <img src={zeus} alt="Zeus"/>
+            <img src={deus.imagem} alt={deus.nome}/>
             <div>
-                <Nome>Zeus</Nome>
-                <Info>Rei dos deuses do Olimpo</Info>
-                <InfoEspecial>Domínio: Céu e Trovões</InfoEspecial>
-                <InfoEspecial>Símbolo: Raio</InfoEspecial>
-                <InfoEspecial>Animal: Águia</InfoEspecial>
+                <Nome>{deus.nome}</Nome>
+                <InfoEspecial>Domínio: {deus.dominio}</InfoEspecial>
+                <InfoEspecial>Símbolo: {deus.simbolo}</InfoEspecial>
+                <InfoEspecial>Animal: {deus.animal}</InfoEspecial>
                 <h2>Especial sobre mim...</h2>
-                <Descricao>Rei dos deuses do Olimpo, Zeus era conhecido por lançar raios contra quem ousasse desafiar sua autoridade. Apesar do poder imenso, vivia se disfarçando de humano para se aventurar entre os mortais.</Descricao>
+                <Descricao>{deus.descricao}</Descricao>
             </div>
         </Container>
     )

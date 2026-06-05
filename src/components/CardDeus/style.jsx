@@ -16,4 +16,17 @@ export const Card = styled.div`
         height: 10.625rem;
         object-fit: cover;
     }
+
+    button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #d4a017;
+    color: #1a1a2e;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
 `
+
