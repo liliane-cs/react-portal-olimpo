@@ -1,4 +1,4 @@
-import { Container, Nome, Info, Descricao, InfoEspecial } from "./style"
+import { Container, Nome, Descricao, InfoEspecial } from "./style"
 import { useParams } from "react-router-dom"
 import { listaDosDeuses } from "../../data/deuses"
 

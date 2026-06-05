@@ -30,11 +30,6 @@ export const Nome = styled.h1`
     font-size: 5rem;
 `
 
-export const Info = styled.p`
-    font-size: 1.5rem;
-    margin: 1rem 0;
-`
-
 export const Descricao = styled.p`
     font-size: 1.2rem;
     margin-top:1.5rem;

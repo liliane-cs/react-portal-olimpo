@@ -22,6 +22,7 @@ export const Deuses = () => {
             <Container>
                 {deusesEncontrados.map((deusIndividualmente) => (
                     <CardDeus
+                        key={deusIndividualmente.id}
                         nome={deusIndividualmente.nome}
                         dominio={deusIndividualmente.dominio}
                         imagem={deusIndividualmente.imagem}
