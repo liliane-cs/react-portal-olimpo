@@ -1,13 +1,9 @@
-import { CardDeus } from "./components/CardDeus"
-import { DetalhesDeuses } from "./pages/DetalhesDeuses"
-import { Deuses } from "./pages/Deuses"
-import { Portal } from "./pages/Portal"
+import { Router } from "./routers/Router"
 
 function App() {
   return (
-    <>
-      <DetalhesDeuses/>
-    </>
+    <Router/>
   )
 }
+
 export default App

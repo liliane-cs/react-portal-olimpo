@@ -39,15 +39,16 @@ export const listaDosDeuses = [
       "Deusa da sabedoria e da estratégia, Atena nasceu diretamente da cabeça de Zeus já adulta e armada. Era a favorita do pai e padroeira da cidade de Atenas.",
    imagem: "/src/assets/Imagens/atena.png",
   },
-  {
-    id: "5",
-    nome: "Apolo",
-    dominio: "Sol, Artes e Profecias",
-    simbolo: "Lira",
-    animal: "Golfinho",
-    descricao:
-      "Deus do sol, da música e das profecias, Apolo era considerado o mais belo dos deuses. O Oráculo de Delfos era seu templo, onde mortais iam buscar respostas sobre o futuro.",
-   imagem: "/src/assets/Imagens/apolo.png",
+
+   {
+  id: "5",
+  nome: "Apolenguelli",
+  dominio: "React e Prazos apertados",
+  simbolo: "Caneta Vermelha",
+  animal: "Coruja",
+  descricao:
+    "Temido por seus trabalhos e correções, Apolenguelli possuía o poder de encontrar erros antes mesmo de o código rodar. Apesar da fama de malvadão, os mortais que sobreviveram às suas avaliações descobriram que ele era um deus justo.", 
+  imagem: "/src/assets/Imagens/apolenguelli.png",
   },
   {
     id: "6",
