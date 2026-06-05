@@ -10,7 +10,7 @@ export const SessaoCard = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #1a1a2e;
+    background-color:  #0d0d1a;
     padding: 2rem;
 
     h1 {

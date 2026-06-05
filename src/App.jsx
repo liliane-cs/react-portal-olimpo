@@ -6,7 +6,7 @@ import { Portal } from "./pages/Portal"
 function App() {
   return (
     <>
-      <Deuses/>
+      <DetalhesDeuses/>
     </>
   )
 }
